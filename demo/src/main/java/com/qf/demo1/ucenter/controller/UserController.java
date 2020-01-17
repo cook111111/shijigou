@@ -26,7 +26,7 @@ public class UserController {
     IUserService userService;
     @RequestMapping(value = "/test",method = RequestMethod.GET)
     public User test(@RequestBody User user){
-        User s = userService.findUser(user.getUserId());
-        return s;
+        User h = userService.findUser(user.getUserId());
+        return h;
 }
 }
