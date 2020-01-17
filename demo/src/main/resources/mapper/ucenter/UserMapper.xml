@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.demo1.ucenter.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.qf.demo1.ucenter.entity.User">
+        <id column="user_id" property="userId" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="picture" property="picture" />
+        <result column="nickname" property="nickname" />
+        <result column="sex" property="sex" />
+        <result column="education" property="education" />
+        <result column="age" property="age" />
+        <result column="birthday" property="birthday" />
+        <result column="marital_status" property="maritalStatus" />
+        <result column="height" property="height" />
+        <result column="income" property="income" />
+        <result column="tel" property="tel" />
+        <result column="introduction" property="introduction" />
+        <result column="level" property="level" />
+        <result column="album_id" property="albumId" />
+        <result column="is_paired" property="isPaired" />
+        <result column="is_delete" property="isDelete" />
+        <result column="address" property="address" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        user_id, username, password, picture, nickname, sex, education, age, birthday, marital_status, height, income, tel, introduction, level, album_id, is_paired, is_delete, address
+    </sql>
+
+</mapper>

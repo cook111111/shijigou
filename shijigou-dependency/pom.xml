@@ -16,10 +16,24 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <!--mybatis plus generator start-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>RELEASE</version>
+            </dependency>
+
+            <!--mybatis plus generator end-->
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>RELEASE</version>
+            </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.61</version>
+                <version>1.2.62</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -35,6 +49,26 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>3.3.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.bin</groupId>
+                <artifactId>swaggr-boot-starter</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+
+
         </dependencies>
 
     </dependencyManagement>

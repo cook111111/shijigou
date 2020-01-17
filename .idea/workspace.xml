@@ -2,33 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b6b7d01-1185-4c06-b514-4a717d2bfdba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/qf/demo1/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/src/main/java/com/qf/getway/GetwayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shijigou-dependency/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shijigou.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/mybatisPlusConfig/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/mapper/ucenter/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/controller.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/controller.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/entity.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/entity.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/entity.kt.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/entity.kt.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/entity.kt.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/mapper.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/mapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/mapper.xml.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/mapper.xml.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/service.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/service.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/serviceImpl.java.btl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/serviceImpl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/serviceImpl.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/qf/demo1/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/qf/demo1/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shijigou-dependency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shijigou-dependency/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,6 +50,7 @@
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/getway/target/" />
     <ignored path="$PROJECT_DIR$/demo1/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +58,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/CodeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getway/src/main/java/com/qf/getway/GetwayApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-57">
+              <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,38 +74,59 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mapper/ucenter/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/getway/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="239">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shijigou-dependency/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getway/pom.xml">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/mybatisPlusConfig/MybatisPlusConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="215">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -108,8 +134,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="144">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/service/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -124,13 +171,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/getway/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/getway/src/main/java/com/qf/getway/GetwayApplication.java" />
-        <option value="$PROJECT_DIR$/shijigou-dependency/pom.xml" />
         <option value="$PROJECT_DIR$/demo1/pom.xml" />
         <option value="$PROJECT_DIR$/demo1/src/main/java/com/qf/demo1/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/getway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/com/qf/demo1/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/shijigou-dependency/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/mybatisPlusConfig/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/test/src/main/java/com/example/demo/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/test/src/test/java/com/example/demo/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/123/entity/User.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/mybatisPlusConfig/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -138,7 +198,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="E:\1908\tool\apache-maven-3.6.1\apache-maven-3.6.1\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../tool/apache-maven-3.6.1/apache-maven-3.6.1" />
+        <option name="mavenHome" value="E:/tool/apache-maven-3.6.1/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="E:\1908\tool\apache-maven-3.6.1\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -157,25 +217,25 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="getway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="getway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="shijigou" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shijigou" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -186,8 +246,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=gbk" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="380" />
-    <option name="y" value="165" />
+    <option name="x" value="-191" />
+    <option name="y" value="65" />
     <option name="width" value="849" />
     <option name="height" value="628" />
   </component>
@@ -197,27 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shijigou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shijigou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shijigou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shijigou" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shijigou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shijigou" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -230,7 +270,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -239,10 +279,25 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qf.demo1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+      <recent name="com.qf.demo1.mybatisPlusConfig" />
+      <recent name="com.qf.demo1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1908\shijigou\test\src\main\resources" />
+      <recent name="E:\1908\shijigou\demo" />
+      <recent name="E:\1908\shijigou\demo\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -256,7 +311,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GetwayApplication">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="CodeGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.CodeGenerator" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qf.demo1.CodeGenerator" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qf.demo1.DemoApplication" />
@@ -271,6 +367,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="JUnit.All in test" />
+        <item itemvalue="Application.CodeGenerator (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -284,11 +387,12 @@
       <updated>1579177621859</updated>
       <workItem from="1579177625337" duration="6326000" />
       <workItem from="1579233262156" duration="1592000" />
+      <workItem from="1579246296020" duration="8399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7918000" />
+    <option name="totallyTimeSpent" value="16317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -299,7 +403,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.14714494" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2306003" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" />
@@ -309,20 +413,20 @@
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.0652819" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32986626" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.47399703" />
+      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.41604754" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32937685" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32838038" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.11054173" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.18008785" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -331,15 +435,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/controller/UserController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/getway/src/test/java/com/qf/getway/GetwayApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getway/src/main/java/com/qf/getway/GetwayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -350,13 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shijigou-dependency/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -364,24 +466,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/getway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="576">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.3.0/mybatis-plus-generator-3.3.0.jar!/com/baomidou/mybatisplus/generator/config/PackageConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shijigou-dependency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/templates/entity.kt.vm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/qf/demo1/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="48">
+          <caret line="92" column="21" selection-start-line="20" selection-start-column="7" selection-end-line="92" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/111/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/resources/templates/entity.kt.vm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/com/example/demo/CodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="-1368">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/src/test/java/com/example/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.qf.demo1/com/qf/demo1/123/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/demo1/123/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/123/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/123/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mapper/123/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/mybatisPlusConfig/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/mapper/ucenter/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/qf/demo1/ucenter/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -435,10 +715,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>demo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

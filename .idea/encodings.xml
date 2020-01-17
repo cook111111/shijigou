@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="NO_ENCODING">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/getway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/getway/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/shijigou-dependency" charset="UTF-8" />

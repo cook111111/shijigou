@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test6?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      pool-name: MyHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+mybatis-plus:
+  type-aliases-package: com.qf.demo1.*.entity
+  mapper-locations: classpath*:/mapper/**/*.xml
+swagger-me:
+  enabled: true
+  title: 哎呦！
+  api-base-package: com.qf.demo1.ucenter.controller
+  description: 有点意思，我的天
