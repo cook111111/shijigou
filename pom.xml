@@ -17,6 +17,7 @@
     <modules>
         <module>ft-dependency</module>
         <module>demo</module>
+        <module>test</module>
     </modules>
 
     <dependencyManagement>

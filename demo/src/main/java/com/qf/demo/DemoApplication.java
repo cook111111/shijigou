@@ -6,8 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
+<<<<<<< HEAD:demo/src/main/java/com/qf/demo/DemoApplication.java
 @MapperScan("com.qf.demo.*.mapper*")
 @EnableDiscoveryClient
+=======
+@MapperScan("com.baomidou.cloud.service.*.mapper*")
+>>>>>>> origin/master:demo/src/main/java/com/qf/demo1/DemoApplication.java
 public class DemoApplication {
 
     public static void main(String[] args) {

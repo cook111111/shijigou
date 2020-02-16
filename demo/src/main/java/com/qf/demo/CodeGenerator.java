@@ -1,4 +1,4 @@
-package com.qf.demo;
+package com.qf.demo1;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
@@ -10,14 +10,13 @@ import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class CodeGenerator {
 
-    public static final String PARENT_PACKAGE_NAME = "com.qf.demo";
+    public static final String PARENT_PACKAGE_NAME = "com.qf.demo1";
     public static final String JDBC_URL = "jdbc:mysql://localhost:3306/test6?useUnicode=true&useSSL=false&characterEncoding=utf8";
     public static final String JDBC_USERNAME = "root";
     public static final String JDBC_PASSWORD = "root";
@@ -52,7 +51,7 @@ public class CodeGenerator {
         gc.setBaseColumnList(true);
         String projectPath = System.getProperty("user.dir");
         gc.setOutputDir(projectPath + "/demo/src/main/java");
-        gc.setAuthor("jerry");
+        gc.setAuthor("111");
         gc.setOpen(false);
         //实体属性 Swagger2 注解
         //gc.setSwagger2(true);

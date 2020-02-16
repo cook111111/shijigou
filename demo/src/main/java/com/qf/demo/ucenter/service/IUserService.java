@@ -1,16 +1,17 @@
-package com.qf.demo.ucenter.service;
+package com.qf.demo1.ucenter.service;
 
-import com.qf.demo.ucenter.entity.User;
+import com.qf.demo1.ucenter.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import io.swagger.models.auth.In;
 
 /**
  * <p>
  *  服务类
  * </p>
  *
- * @author jerry
- * @since 2020-01-23
+ * @author 111
+ * @since 2020-01-17
  */
 public interface IUserService extends IService<User> {
-    Integer findUser(User user);
+    User findUser(Integer id);
 }

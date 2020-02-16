@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<<<<<<< HEAD
 <mapper namespace="com.qf.demo.ucenter.mapper.UserMapper">
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.qf.demo.ucenter.entity.User">
+=======
+<mapper namespace="com.qf.demo1.ucenter.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.qf.demo1.ucenter.entity.User">
+>>>>>>> origin/master
         <id column="user_id" property="userId" />
         <result column="username" property="username" />
         <result column="password" property="password" />
@@ -29,7 +36,11 @@
     <sql id="Base_Column_List">
         user_id, username, password, picture, nickname, sex, education, age, birthday, marital_status, height, income, tel, introduction, level, album_id, is_paired, is_delete, address
     </sql>
+<<<<<<< HEAD
     <select id="findUser" resultType="Integer">
         select count(*) from user where username=#{username} and password=#{password};
     </select>
+=======
+
+>>>>>>> origin/master
 </mapper>

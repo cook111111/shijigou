@@ -1,17 +1,16 @@
-package com.qf.demo.ucenter.mapper;
+package com.qf.demo1.ucenter.mapper;
 
-import com.qf.demo.ucenter.entity.User;
+import com.qf.demo1.ucenter.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>
  *  Mapper 接口
  * </p>
  *
- * @author jerry
- * @since 2020-01-23
+ * @author 111
+ * @since 2020-01-17
  */
 public interface UserMapper extends BaseMapper<User> {
-    Integer findUser(@Param("username") String username,@Param("password")String password);
+
 }

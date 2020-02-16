@@ -39,6 +39,7 @@
             <artifactId>fastjson</artifactId>
         </dependency>
 
+<<<<<<< HEAD
         <!--mybatis plus generator start-->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -56,6 +57,19 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+=======
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+        </dependency>
+
+
+>>>>>>> origin/master
         <!-- 主要增加 HikariCP 依赖 -->
         <dependency>
             <groupId>com.zaxxer</groupId>
@@ -74,6 +88,7 @@
             </exclusions>
         </dependency>
         <dependency>
+<<<<<<< HEAD
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
 
@@ -84,18 +99,28 @@
 
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+=======
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+>>>>>>> origin/master
 
         <dependency>
             <groupId>com.bin</groupId>
             <artifactId>swaggr-boot-starter</artifactId>
+<<<<<<< HEAD
 
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+=======
+        </dependency>
+>>>>>>> origin/master
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
+<<<<<<< HEAD
         <!--nacos注册中心支持-->
         <!-- Spring Cloud Begin -->
         <dependency>
@@ -107,6 +132,17 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+=======
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+>>>>>>> origin/master
         </dependency>
     </dependencies>
 

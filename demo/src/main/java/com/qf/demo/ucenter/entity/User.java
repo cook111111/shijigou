@@ -1,4 +1,4 @@
-package com.qf.demo.ucenter.entity;
+package com.qf.demo1.ucenter.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -9,8 +9,8 @@ import java.io.Serializable;
  * 
  * </p>
  *
- * @author jerry
- * @since 2020-01-23
+ * @author 111
+ * @since 2020-01-17
  */
 public class User implements Serializable {
 
