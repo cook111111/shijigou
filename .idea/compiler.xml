@@ -14,8 +14,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="ft-dependency" options="" />
       <module name="getway" options="-parameters" />
-      <module name="shijigou-dependency" options="" />
     </option>
   </component>
 </project>
